@@ -1,0 +1,24 @@
+Environment: full information about environment  
+Tester: Name Lastname 
+Test date: date of testing
+
+№	Checking	                Expected result	                            Actual result	Comment
+1	Install app by using APK-file	App was installed successfully	            ok
+2	Open App	                App was opened successfully                 ok
+3	Press the button "Add widget"	"The button ""Add widget"" is clickable     ok
+                                        The window ""Add to Home Screen"" appears
+                                        Widget appeared on screen"
+4	Long tap on widgets	        The display sliders on all widget borders   ok
+5	Press the button "Save data"	"The button ""Save data"" is clickable,     ok
+                                        a notification ""data 
+                                        was saved successfully"" appears"
+6	Press the button "Send e-mail"	"The button ""Send e-mail"" is clickable,   ok
+                                        window for sending a message
+                                        appears with automatically filled in information
+                                        about the recipient of the letter, 
+                                        with an attachment and 
+                                        the message ""Android device info"
+7	Press the button "Clear data"	"The button ""Clear data"" is clickable,    ok
+                                        a notification "data was successfully deleted"appears
+8	Press again the button          Notification "Data does not exist"          ok
+"Clear data "
